@@ -4,5 +4,5 @@ Depends: R (>= 4.2.0)
 Imports: utils, Rcpp (>= 1.0.0), roxygen2, pkgKitten (>= 0.1.2)
 Suggests: RUnit, RcppArmadillo
 License: GPL-3
-MD5sum: c4e87ef9c38e277ab4de859bc80af6d2
+MD5sum: f3d9ca535b0b4c1d9b5deb345f7402ab
 NeedsCompilation: no
