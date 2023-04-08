@@ -1,0 +1,2 @@
+bin/windows/contrib/4.2/oneMKL_0.1.2022.zip filter=lfs diff=lfs merge=lfs -text
+bin/linux/ubuntu/focal/oneMKL_0.1.2022_R_x86_64-pc-linux-gnu.tar.gz filter=lfs diff=lfs merge=lfs -text
