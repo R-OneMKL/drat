@@ -1,0 +1,8 @@
+Package: oneMKL
+Version: 0.1.2022
+Depends: R (>= 4.2.0)
+Imports: utils, Rcpp (>= 1.0.0), roxygen2, pkgKitten (>= 0.1.2)
+Suggests: RUnit, RcppArmadillo
+License: GPL-3
+MD5sum: c3a6809555596ad75f3b109b2e06c50b
+NeedsCompilation: no
