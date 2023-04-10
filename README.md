@@ -10,7 +10,7 @@ You can install a package from the R-OneMKL repository directly with `install.pa
 For example:
 
 ```r
-install.packages(c("pkgName1", "pkgName2"), repos="https://R-OneMKL.github.io/drat")
+install.packages(c("oneMKL", "oneMKLUtil"), repos="https://R-OneMKL.github.io/drat")
 ```
 
 The easiest way to set yourself up to use this drat repository is to first 
@@ -19,5 +19,5 @@ install the **drat** package:
 ```r
 install.packages("drat")
 drat::addRepo("R-OneMKL") # append R-OneMKL repository to repo list
-install.packages(c("pkgName1", "pkgName2"))
+install.packages(c("oneMKL", "oneMKLUtil"))
 ```
