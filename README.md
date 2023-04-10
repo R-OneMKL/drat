@@ -6,15 +6,13 @@ We are using the [drat](https://cran.r-project.org/package=drat) R package to se
 
 #### Package Users: Installation of R-OneMKL R packages
 
-You can install a package from the R-OneMKL repository directly with `install.packages()`.
-For example:
+You can install packages from the R-OneMKL repository directly with `install.packages()`.
 
 ```r
 install.packages(c("oneMKL", "oneMKLUtil"), repos="https://R-OneMKL.github.io/drat")
 ```
 
-The easiest way to set yourself up to use this drat repository is to first 
-install the **drat** package:
+The other way to use this drat repository is to leverage `drat` package:
 
 ```r
 install.packages("drat")
