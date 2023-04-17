@@ -1,8 +1,8 @@
-Package: oneMKLUtil
+Package: oneMKL.MatrixCal
 Version: 0.1.2022
 Depends: R (>= 4.2.0)
 Imports: Rcpp (>= 1.0.0), oneMKL, rlang
-LinkingTo: Rcpp, oneMKL, RcppArmadillo
+LinkingTo: Rcpp, RcppArmadillo, oneMKL
 Suggests: RUnit
 License: GPL-3
 Archs: x64
