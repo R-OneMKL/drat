@@ -5,7 +5,7 @@ Imports: utils, Rcpp (>= 1.0.0), RcppArmadillo, roxygen2, pkgKitten (>= 0.1.2)
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: RUnit
 License: GPL-3
-MD5sum: 941a67c240c9f145a3d6da92c9e6c934
+MD5sum: b1acf6fd33be03739219ea2ea881acfa
 NeedsCompilation: no
 
 Package: oneMKL.MatrixCal
@@ -15,5 +15,5 @@ Imports: Rcpp (>= 1.0.0), oneMKL, RcppArmadillo
 LinkingTo: Rcpp, oneMKL, RcppArmadillo
 Suggests: RUnit
 License: GPL-3
-MD5sum: d67b5c9ff7c63192d48e98230b16fafd
+MD5sum: 90c771e01f867bc539e47ad0a6eb3cf8
 NeedsCompilation: yes
