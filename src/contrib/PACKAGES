@@ -1,11 +1,10 @@
 Package: oneMKL
 Version: 0.1.2022
 Depends: R (>= 4.2.0)
-Imports: utils, Rcpp (>= 1.0.0), RcppArmadillo, roxygen2, pkgKitten (>= 0.1.2)
-LinkingTo: Rcpp, RcppArmadillo
-Suggests: RUnit
+Imports: utils, Rcpp (>= 1.0.0), RcppArmadillo
+Suggests: roxygen2, pkgKitten (>= 0.1.2), RUnit
 License: GPL-3
-MD5sum: b1acf6fd33be03739219ea2ea881acfa
+MD5sum: 4d8848a6161b29b72d5aafca5d4e7211
 NeedsCompilation: no
 
 Package: oneMKL.MatrixCal
@@ -13,7 +12,7 @@ Version: 0.1.2022
 Depends: R (>= 4.2.0)
 Imports: Rcpp (>= 1.0.0), oneMKL, RcppArmadillo
 LinkingTo: Rcpp, oneMKL, RcppArmadillo
-Suggests: RUnit
+Suggests: RUnit, roxygen2
 License: GPL-3
-MD5sum: 90c771e01f867bc539e47ad0a6eb3cf8
+MD5sum: 7875fcef4f40c81d8bf500f6047be983
 NeedsCompilation: yes
