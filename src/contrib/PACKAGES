@@ -12,7 +12,7 @@ Version: 0.1.2022
 Depends: R (>= 4.2.0)
 Imports: Rcpp (>= 1.0.0), oneMKL, RcppEigen
 LinkingTo: Rcpp, oneMKL, RcppEigen
-Suggests: RUnit, roxygen2
+Suggests: RUnit, pracma, roxygen2
 License: GPL-3
-MD5sum: 88865580482232fbfda5680e0fa5a0d7
+MD5sum: 1e1d0db98322cabbebfd661e085c5cc7
 NeedsCompilation: yes
