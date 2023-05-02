@@ -14,5 +14,5 @@ Imports: Rcpp (>= 1.0.0), oneMKL, RcppEigen
 LinkingTo: Rcpp, oneMKL, RcppEigen
 Suggests: RUnit, pracma, roxygen2
 License: GPL-3
-MD5sum: 1e1d0db98322cabbebfd661e085c5cc7
+MD5sum: 30ef9f59d3741aa3f0352b2945a6c39b
 NeedsCompilation: yes
