@@ -11,10 +11,10 @@ You can install packages from the R-OneMKL repository directly with `install.pac
 ```r
 # for windows 
 install.packages(c("oneMKL"), repos="https://R-OneMKL.github.io/drat", type="source")
-install.packages(c("oneMKLUtil"), repos="https://R-OneMKL.github.io/drat")
+install.packages(c("oneMKL.MatrixCal"), repos="https://R-OneMKL.github.io/drat")
 
 # for Linux
-install.packages(c("oneMKL", "oneMKLUtil"), repos="https://R-OneMKL.github.io/drat")
+install.packages(c("oneMKL", "oneMKL.MatrixCal"), repos="https://R-OneMKL.github.io/drat")
 ```
 
 The other way to use this drat repository is to leverage `drat` package:
@@ -22,5 +22,5 @@ The other way to use this drat repository is to leverage `drat` package:
 ```r
 install.packages("drat")
 drat::addRepo("R-OneMKL") # append R-OneMKL repository to repo list
-install.packages(c("oneMKL", "oneMKLUtil"))
+install.packages(c("oneMKL", "oneMKL.MatrixCal"))
 ```
