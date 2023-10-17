@@ -9,11 +9,6 @@ We are using the [drat](https://cran.r-project.org/package=drat) R package to se
 You can install packages from the R-OneMKL repository directly with `install.packages()`.
 
 ```r
-# for windows 
-install.packages(c("oneMKL"), repos="https://R-OneMKL.github.io/drat", type="source")
-install.packages(c("oneMKL.MatrixCal"), repos="https://R-OneMKL.github.io/drat")
-
-# for Linux
 install.packages(c("oneMKL", "oneMKL.MatrixCal"), repos="https://R-OneMKL.github.io/drat")
 ```
 
