@@ -1,11 +1,3 @@
-Package: oneMKL
-Version: 0.1.2023
-Depends: R (>= 4.0.0)
-Imports: utils, Rcpp (>= 1.0.0), RcppEigen
-Suggests: roxygen2, pkgKitten (>= 0.1.2), RUnit
-MD5sum: a78e7168ced1d13bf8c0d45bba40a880
-NeedsCompilation: no
-
 Package: oneMKL.MatrixCal
 Version: 0.1.2023
 Depends: R (>= 4.0.0)
@@ -15,3 +7,11 @@ Suggests: RUnit, pracma, roxygen2
 License: GPL-3
 MD5sum: 794ea59e392a7c775b6e38cd7b0cbbb2
 NeedsCompilation: yes
+
+Package: oneMKL
+Version: 0.1.2023
+Depends: R (>= 4.0.0)
+Imports: utils, Rcpp (>= 1.0.0), RcppEigen
+Suggests: roxygen2, pkgKitten (>= 0.1.2), RUnit
+MD5sum: 89ec5cb97e3968d4116e6d1577b58f80
+NeedsCompilation: no
